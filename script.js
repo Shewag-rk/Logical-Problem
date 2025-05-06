@@ -131,3 +131,61 @@
 //     obj[char] = (obj[char] || 0) + 1;
 // }
 // console.log(obj);
+
+
+// -------------------------------------------------------------- //
+
+
+// Date: 29|02|2025 7 problems:
+
+// 1. flated an nested 
+// let array = [1, [2,3], [4,5]];
+// const flatedArray = []
+
+// for(let i=0; i<array.length; i++){
+    // console.log(array[i]);
+//     flatedArray[flatedArray.length] = [...array[i]]
+//     console.log(flatedArray);
+// }
+
+
+
+// 2 captalsization the each first letter as
+// const string = 'hello'; 
+
+// for(let i=0; i<string.length; i++){
+//     // console.log(string[i]);
+//     if(string[i] === string[i].charAt(string[i].length-1)){
+//         console.log("yes" + string[i].toUpperCase);
+//     }else{
+//         console.log("none");   
+//     }
+// }
+
+
+
+// 3 longest words in the sentences.
+// string = "Hello, wellcome to program";
+
+// 4  [{()}] = true; [{(}] = flase;  valdation the brackets.
+
+// 5 groups anagram  array = ["bat", "tab", "pat", "tap"]; output = ["bat", "tab"] , ["pat", "tap"];
+
+// 6 junkarray [1,2,3,4,5,6,7] traget (3);
+
+// 7 remove flase in the array 
+
+
+// function removeFalseValues(values, arr){
+// console.log(values);
+// for(let i=0; i<values.length; i++){
+//     if(values[i] === typeof(String)){
+//         arr[arr.length] = values[i]
+//         return
+//         }
+//     }
+//     return arr
+// }
+
+// let falseValues = [false, 0, -0, "", null, undefined, NaN, "Yokesh"], newArr = []
+// console.log(removeFalseValues(falseValues, newArr));

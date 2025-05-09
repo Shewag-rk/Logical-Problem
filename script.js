@@ -139,29 +139,41 @@
 // Date: 29|02|2025 7 problems:
 
 // 1. flated an nested 
-// let array = [1, [2,3], [4,5]];
-// const flatedArray = []
+// let array = [1,[2,3],[4,5]];
+// let  flatedArray = []
 
 // for(let i=0; i<array.length; i++){
-    // console.log(array[i]);
-//     flatedArray[flatedArray.length] = [...array[i]]
-//     console.log(flatedArray);
+//     let arr = array[i]
+//     if(typeof arr == "object" && arr !== ""){
+//         for(let j=0; j<arr.length; j++){
+//             flatedArray[flatedArray.length] = arr[j]
+//         }
+//     }else{
+//         flatedArray[flatedArray.length] = arr;
+//     }
 // }
+// console.log(flatedArray);
 
 
 
 // 2 captalsization the each first letter as
-// const string = 'hello'; 
+// let string = 'hello world shewag java script program';
+// let result = '';
 
-// for(let i=0; i<string.length; i++){
-//     // console.log(string[i]);
-//     if(string[i] === string[i].charAt(string[i].length-1)){
-//         console.log("yes" + string[i].toUpperCase);
+// if(string[0] !== " "){
+//     result += string[0].toUpperCase();
+// }
+
+// for(let i=1; i < string.length; i++){    
+//     if(string[i - 1] === " " && string[i] !== " "){
+//         result += string[i].toUpperCase();
+        
 //     }else{
-//         console.log("none");   
+//         result += string[i];
 //     }
 // }
 
+// console.log(result);
 
 
 // 3 longest words in the sentences.
